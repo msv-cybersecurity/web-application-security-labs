@@ -1,4 +1,3 @@
-# web-application-security-labs
 # Web Application Security Labs
 
 This repository contains hands-on web application security assessments performed in controlled lab environments for learning and research purposes.
