@@ -33,4 +33,4 @@ Build a web application security testing lab and perform initial reconnaissance 
 
 ## Status
 
-Lab setup completed successfully.
+Lab setup completed successfully
