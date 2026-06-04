@@ -1,0 +1,25 @@
+# Burp Repeater Analysis
+
+## Objective
+
+Analyze and manipulate authentication requests using Burp Suite Repeater.
+
+## Activities Performed
+
+* Sent authentication request to Burp Repeater.
+* Replayed valid authentication requests.
+* Modified password parameter and observed authentication failure response.
+* Tested modified email input values.
+* Analyzed server response behavior and request handling.
+
+## Observations
+
+* Application uses JSON-based authentication requests.
+* Different responses observed for valid and invalid credentials.
+* Authentication flow successfully replayed using Burp Repeater.
+
+## Tools Used
+
+* Burp Suite Community Edition
+* OWASP Juice Shop
+* Parrot OS

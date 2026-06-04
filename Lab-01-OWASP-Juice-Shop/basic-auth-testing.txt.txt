@@ -1,0 +1,38 @@
+# Basic Authentication Testing
+
+## Objective
+
+Perform authentication request replay and parameter manipulation testing using Burp Suite Repeater.
+
+## Activities Performed
+
+* Replayed valid login requests.
+* Modified authentication parameters.
+* Tested invalid password responses.
+* Performed basic input manipulation testing on authentication parameters.
+* Observed differences in server responses.
+
+## Observations
+
+### Valid Authentication
+
+Application returned a successful authentication response containing a token.
+
+### Invalid Password
+
+Application returned:
+"Invalid email or password."
+
+### Modified Input Test
+
+Modified email parameter values were tested to observe application response handling behavior.
+
+## Tools Used
+
+* Burp Suite Community Edition
+* OWASP Juice Shop
+* Parrot OS
+
+## Status
+
+Authentication replay and basic parameter testing completed successfully.
