@@ -34,3 +34,11 @@ Build a web application security testing lab and perform initial reconnaissance 
 ## Status
 
 Lab setup completed successfully.
+
+## Additional Activities Performed
+
+* Configured Burp Suite Community Edition for web traffic interception.
+* Intercepted HTTP GET and POST requests from OWASP Juice Shop.
+* Captured and analyzed the authentication request endpoint `/rest/user/login`.
+* Observed JSON-based credential transmission containing email and password parameters.
+* Performed initial authentication flow analysis and request inspection.
