@@ -42,3 +42,11 @@ Lab setup completed successfully.
 * Captured and analyzed the authentication request endpoint `/rest/user/login`.
 * Observed JSON-based credential transmission containing email and password parameters.
 * Performed initial authentication flow analysis and request inspection.
+
+## Burp Repeater Activities
+
+* Replayed valid authentication requests using Burp Repeater.
+* Performed invalid password testing and analyzed authentication responses.
+* Conducted basic parameter manipulation testing on authentication requests.
+* Observed token-based authentication responses and server-side validation behavior.
+* Compared application responses for valid and invalid authentication attempts.
