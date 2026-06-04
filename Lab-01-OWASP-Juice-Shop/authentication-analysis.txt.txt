@@ -1,0 +1,36 @@
+# Authentication Request Analysis
+
+## Application
+
+OWASP Juice Shop
+
+## Endpoint Identified
+
+/rest/user/login
+
+## Request Method
+
+POST
+
+## Content Type
+
+application/json
+
+## Parameters Observed
+
+* email
+* password
+
+## Security Observation
+
+The application transmits user authentication credentials through a JSON-based POST request. Traffic interception using Burp Suite successfully identified the login endpoint, request headers, and authentication parameters.
+
+## Tools Used
+
+* Burp Suite Community Edition
+* Parrot OS
+* OWASP Juice Shop
+
+## Status
+
+Traffic interception successful.
