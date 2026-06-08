@@ -50,3 +50,10 @@ Lab setup completed successfully.
 * Conducted basic parameter manipulation testing on authentication requests.
 * Observed token-based authentication responses and server-side validation behavior.
 * Compared application responses for valid and invalid authentication attempts.
+
+## JWT Authentication Analysis
+
+* Identified JWT-based authentication mechanism used by OWASP Juice Shop.
+* Captured and decoded authentication token using JWT.io.
+* Analyzed JWT payload claims including user ID, email, role, and account status.
+* Observed token-based session handling and authentication metadata exposure.
