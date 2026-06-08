@@ -1,0 +1,42 @@
+# JWT Authentication Analysis
+
+## Objective
+
+Analyze JSON Web Token (JWT) based authentication used by OWASP Juice Shop.
+
+## Activities Performed
+
+* Captured authentication response using Burp Suite.
+* Identified JWT-based authentication mechanism.
+* Extracted JWT token from authentication response.
+* Decoded JWT using JWT.io for payload analysis.
+
+## Observations
+
+### JWT Algorithm
+
+RS256
+
+### Claims Observed
+
+* id
+* email
+* role
+* isActive
+* createdAt
+* updatedAt
+
+### Security Observation
+
+The application uses JWT-based authentication and stores user-related claims inside the token payload. The decoded token exposed user metadata and session-related information.
+
+## Tools Used
+
+* Burp Suite Community Edition
+* JWT.io
+* OWASP Juice Shop
+* Parrot OS
+
+## Status
+
+JWT analysis completed successfully.
